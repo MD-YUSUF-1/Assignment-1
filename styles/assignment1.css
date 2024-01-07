@@ -72,16 +72,17 @@
     height: 500px;
 }
 
+/* Welcome section */
 .welcome {
     display: flex;
-    width: 319.83px;
-    height: 464.662px;
     justify-content: center;
-    align-items: center;
     background-image: url('/resources/Vectorrr.png');
     width: 1320px;
     height: 600px;
     margin: 120px auto 0px;
+}
+#year-2024{
+    margin-top: 60px ;
 }
 
 .welcome-title {
@@ -89,8 +90,8 @@
     font-size: 60px;
     font-weight: 900;
     max-width: 642px;
-    /* padding: 126px 552px 0px 126px; */
-    /* margin-bottom: 0px; */
+    padding: 70px 0px 0px 10px;
+    margin-bottom: 0px;
 }
 
 .welcome-description {
@@ -99,8 +100,8 @@
     font-family: Inter;
     font-size: 15px;
     font-weight: 400;
-    /* padding: 24px 497px 0px 126px; */
-    /* margin-bottom: 0px; */
+    padding: 24px 0px 0px 10px;
+    margin-bottom: 0px;
 }
 
 .join-button {
@@ -118,5 +119,5 @@
 }
 
 .join {
-    /* padding: 48px 1069px 0px 158px; */
+    padding: 48px 0px 0px 20px;
 }
