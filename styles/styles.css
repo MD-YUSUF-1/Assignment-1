@@ -7,7 +7,9 @@
 
 /* Banner section  */
 .banner {
-    background-image: url("../resources/Banner.png");
+    background:linear-gradient(#070211, rgba(7, 2, 17, 0.00)), url("../resources/Banner.png");
+    background-position: center; 
+    background-size: cover;
     background-repeat: no-repeat;
     width: 1320px;
     height: 600px;
@@ -15,7 +17,6 @@
     margin: 50px auto 0px;
 
 }
-
 .banner-title {
     color: #FFF;
     text-align: center;
@@ -75,7 +76,10 @@
 .welcome {
     display: flex;
     justify-content: center;
-    background-image: url('../resources/Vectorrr.png');
+    background:linear-gradient(to right, #070211, rgba(7, 2, 17, 0.00)), url('../resources/Vectorrr.png');
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 1320px;
     height: 600px;
     margin: 120px auto 0px;
