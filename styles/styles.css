@@ -75,11 +75,12 @@
 .welcome {
     display: flex;
     justify-content: center;
-    background-image: url('/resources/Vectorrr.png');
+    background-image: url('../resources/Vectorrr.png');
     width: 1320px;
     height: 600px;
     margin: 120px auto 0px;
 }
+
 #year-2024{
     margin-top: 60px ;
 }
