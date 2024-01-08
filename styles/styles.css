@@ -4,11 +4,27 @@
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
 }
+/* shared button */
+.join-button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 8px ;
+    border: none;
+    background: #F00;
+    padding: 16px 32px ;
+}
+/* 
+.join-button:hover {
+
+} */
 
 /* Banner section  */
 .banner {
-    background:linear-gradient(#070211, rgba(7, 2, 17, 0.00)), url("../resources/Banner.png");
-    background-position: center; 
+    background: linear-gradient(#070211, rgba(7, 2, 17, 0.00)), url("../resources/Banner.png");
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 1320px;
@@ -17,6 +33,7 @@
     margin: 50px auto 0px;
 
 }
+
 .banner-title {
     color: #FFF;
     text-align: center;
@@ -73,20 +90,21 @@
 }
 
 /* Welcome section */
+
 .welcome {
     display: flex;
     justify-content: center;
-    background:linear-gradient(to right, #070211, rgba(7, 2, 17, 0.00)), url('../resources/Vectorrr.png');
-    background-position: center; 
+    background: linear-gradient(to right, #070211, rgba(7, 2, 17, 0.00)), url('../resources/Vectorrr.png');
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 1320px;
     height: 600px;
     margin: 120px auto 0px;
+    border-radius: 16
 }
-
-#year-2024{
-    margin-top: 60px ;
+#year-2024 {
+    margin-top: 60px;
 }
 
 .welcome-title {
@@ -108,7 +126,7 @@
     margin-bottom: 0px;
 }
 
-.join-button {
+/* .join-button {
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -120,8 +138,46 @@
 
 .join-button:hover {
     color: rgb(12, 230, 85)
-}
+} */
+
 
 .join {
     padding: 48px 0px 0px 20px;
 }
+
+.event-details {
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 120px auto 0px;
+    border-radius: 16px;
+}
+
+ .info {
+    text-align: center;
+    padding: 100px 365px 0px 364px;
+    max-width: 575px;
+    max-height: 100px;
+}
+
+.event-title {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+.event-description{
+color: #070211;
+font-family: Inter;
+font-size: 28px;
+font-weight: 600;
+line-height: 28px;
+text-transform: capitalize;
+}
+#event-join-button{
+    padding : 48px auto 110px ;
+}
+
