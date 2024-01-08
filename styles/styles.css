@@ -4,6 +4,7 @@
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
 }
+
 /* shared button */
 .join-button {
     color: #FFF;
@@ -11,11 +12,12 @@
     font-family: Inter;
     font-size: 14px;
     font-weight: 700;
-    border-radius: 8px ;
+    border-radius: 8px;
     border: none;
     background: #F00;
-    padding: 16px 32px ;
+    padding: 16px 32px;
 }
+
 /* 
 .join-button:hover {
 
@@ -103,6 +105,7 @@
     margin: 120px auto 0px;
     border-radius: 16
 }
+
 #year-2024 {
     margin-top: 60px;
 }
@@ -153,7 +156,7 @@
     border-radius: 16px;
 }
 
- .info {
+.info {
     text-align: center;
     padding: 100px 365px 0px 364px;
     max-width: 575px;
@@ -169,15 +172,85 @@
     line-height: 28px;
     text-transform: capitalize;
 }
-.event-description{
-color: #070211;
-font-family: Inter;
-font-size: 28px;
-font-weight: 600;
-line-height: 28px;
-text-transform: capitalize;
-}
-#event-join-button{
-    padding : 48px auto 110px ;
+
+.event-description {
+    color: #070211;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: capitalize;
 }
 
+#event-join-button {
+    padding: 48px auto 110px;
+}
+
+.subscribe {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 120px auto 0px;
+}
+
+.sub-icon {
+    width: 150px;
+    height: 150px;
+    padding: 80px 576px 0px;
+}
+
+.sub-container h4 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 40px 0px 0px 0px;
+}
+
+.sub-container p {
+    width: 896px;
+    text-align: center;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 22px auto 0px;
+}
+
+.sub-container form {
+    margin: 48px 336px 80px;
+    position: relative;
+
+}
+
+#input-tag {
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    border: none;
+    background: #FFF;
+    box-sizing: border-box;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 25px 477px 25px 30px;
+}
+
+.sub-button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 24px 56px;
+}
