@@ -186,6 +186,109 @@
     padding: 48px auto 110px;
 }
 
+/* gift section */
+#gift-heading { 
+    background: #FFF;
+    width: 1300px;
+    margin: 120px auto 0px;
+} 
+
+.gift-sec-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0
+}
+
+#gift-heading h3 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 16px 0px 0px;
+}
+
+.gift-sec-description {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 22px 0px 0px;
+}
+
+.gift-img .gift-img-1{
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    background: url("../resources/Rectangle3.png"), lightgray 0px -35.755px / 100% 142.115% no-repeat;
+    transition: 0.5s;
+}
+.gift-img .gift-img-2{
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    background: url("../resources/Rectangle4.png"), lightgray 50% / cover no-repeat;
+    transition: 0.2s;
+}
+.gift-img .gift-img-3{
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    background: url("../resources/Rectangle5.png"), lightgray 50% / cover no-repeat;
+    transition: 0.2s;
+}
+.gift-img .gift-img-4{
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    background: url("../resources/Rectangle6.png"), lightgray -195.366px 0px / 156.077% 100% no-repeat;
+    transition: 0.2s;
+}
+.gift-img .gift-img-5{
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    background: url("../resources/Rectangle7.png"), lightgray 50% / cover no-repeat;
+    transition: 0.2s;
+}
+.gift-img .gift-img-6{
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    background: url("../resources/Rectangle8.png"), lightgray 50% / cover no-repeat;
+    transition: 0.2s;
+}
+
+.gift-img-1:hover {
+    opacity: 0.6;
+}
+.gift-img-2:hover {
+    opacity: 0.6;
+}
+.gift-img-3:hover {
+    opacity: 0.6;
+}
+.gift-img-4:hover {
+    opacity: 0.6;
+}
+.gift-img-5:hover {
+    opacity: 0.6;
+}
+.gift-img-6:hover {
+    opacity: 0.6;
+}
+
+.gift-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 45px 0px;
+    justify-content: center;
+}
+
+/* subscribe section */
 .subscribe {
     width: 1320px;
     height: 616px;
@@ -308,6 +411,7 @@ hr {
     width: 64px;
     height: 64px;
 }
+
 .copyright {
     padding: 2px 17% 120px 8%;
     display: flex;
