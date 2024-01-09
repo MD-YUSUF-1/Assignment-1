@@ -186,12 +186,79 @@
     padding: 48px auto 110px;
 }
 
-/* gift section */
-#gift-heading { 
+/* Offer section */
+
+.offer {
     background: #FFF;
     width: 1300px;
     margin: 120px auto 0px;
-} 
+    display: flex;
+    align-items: center;
+}
+
+.best-offer #best-offer-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.best-offer h3 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 16px 0px 0px;
+}
+
+.best-offer #best-offer-description {
+    max-width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 22px 0px 0px;
+}
+
+.offer-img {
+    width: 463px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 49px;
+    margin: 0px 118px 70px;
+}
+
+.happy-new-year h2 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.happy-new-year p {
+    max-width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 16px 0px 0px;
+}
+
+.happy-new-year img {
+    width: 140px;
+    height: 140px;
+    margin: 43px 0px 0px;
+}
+
+
+/* gift section */
+#gift-heading {
+    background: #FFF;
+    width: 1300px;
+    margin: 120px auto 0px;
+}
 
 .gift-sec-title {
     color: #F00;
@@ -218,42 +285,47 @@
     margin: 22px 0px 0px;
 }
 
-.gift-img .gift-img-1{
+.gift-img .gift-img-1 {
     width: 424px;
     height: 450px;
     border-radius: 16px;
     background: url("../resources/Rectangle3.png"), lightgray 0px -35.755px / 100% 142.115% no-repeat;
     transition: 0.5s;
 }
-.gift-img .gift-img-2{
+
+.gift-img .gift-img-2 {
     width: 424px;
     height: 450px;
     border-radius: 16px;
     background: url("../resources/Rectangle4.png"), lightgray 50% / cover no-repeat;
     transition: 0.2s;
 }
-.gift-img .gift-img-3{
+
+.gift-img .gift-img-3 {
     width: 424px;
     height: 450px;
     border-radius: 16px;
     background: url("../resources/Rectangle5.png"), lightgray 50% / cover no-repeat;
     transition: 0.2s;
 }
-.gift-img .gift-img-4{
+
+.gift-img .gift-img-4 {
     width: 424px;
     height: 450px;
     border-radius: 16px;
     background: url("../resources/Rectangle6.png"), lightgray -195.366px 0px / 156.077% 100% no-repeat;
     transition: 0.2s;
 }
-.gift-img .gift-img-5{
+
+.gift-img .gift-img-5 {
     width: 424px;
     height: 450px;
     border-radius: 16px;
     background: url("../resources/Rectangle7.png"), lightgray 50% / cover no-repeat;
     transition: 0.2s;
 }
-.gift-img .gift-img-6{
+
+.gift-img .gift-img-6 {
     width: 424px;
     height: 450px;
     border-radius: 16px;
@@ -264,18 +336,23 @@
 .gift-img-1:hover {
     opacity: 0.6;
 }
+
 .gift-img-2:hover {
     opacity: 0.6;
 }
+
 .gift-img-3:hover {
     opacity: 0.6;
 }
+
 .gift-img-4:hover {
     opacity: 0.6;
 }
+
 .gift-img-5:hover {
     opacity: 0.6;
 }
+
 .gift-img-6:hover {
     opacity: 0.6;
 }
