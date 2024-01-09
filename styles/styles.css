@@ -128,7 +128,7 @@
 }
 
 .join {
-    padding: 48px 0px 0px 20px;
+    margin: 48px 0px 0px 20px;
 }
 
 /* Event Details section  */
@@ -168,7 +168,7 @@
 }
 
 #event-join-button {
-    padding: 48px auto 110px;
+    margin: 48px auto 0px;
 }
 
 /* Offer section */
