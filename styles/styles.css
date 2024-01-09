@@ -24,6 +24,7 @@
 } */
 
 /* Banner section  */
+
 .banner {
     background: linear-gradient(#070211, rgba(7, 2, 17, 0.00)), url("../resources/Banner.png");
     background-position: center;
@@ -56,6 +57,7 @@
 }
 
 /* OFF section */
+
 .percent-off {
     color: #F00;
     text-align: center;
@@ -143,10 +145,11 @@
     color: rgb(12, 230, 85)
 } */
 
-
 .join {
     padding: 48px 0px 0px 20px;
 }
+
+/* Event Details section  */
 
 .event-details {
     width: 1320px;
@@ -222,11 +225,10 @@
 }
 
 .offer-img {
-    width: 463px;
-    border-radius: 463px;
+    border-radius: 100%;
     border: 15px solid #F00;
     padding: 49px;
-    margin: 0px 118px 70px;
+    margin: 0px 118px 0px 70px;
 }
 
 .happy-new-year h2 {
@@ -252,8 +254,10 @@
     margin: 43px 0px 0px;
 }
 
+/* Sale section */
 
-/* gift section */
+
+/* Gift section */
 #gift-heading {
     background: #FFF;
     width: 1300px;
@@ -365,7 +369,8 @@
     justify-content: center;
 }
 
-/* subscribe section */
+/* Subscribe section */
+
 .subscribe {
     width: 1320px;
     height: 616px;
