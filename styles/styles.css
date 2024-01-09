@@ -16,12 +16,8 @@
     border: none;
     background: #F00;
     padding: 16px 32px;
+    cursor: pointer;
 }
-
-/* 
-.join-button:hover {
-
-} */
 
 /* Banner section  */
 
@@ -130,20 +126,6 @@
     padding: 24px 0px 0px 10px;
     margin-bottom: 0px;
 }
-
-/* .join-button {
-    color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 700;
-    background: none;
-    border: none;
-}
-
-.join-button:hover {
-    color: rgb(12, 230, 85)
-} */
 
 .join {
     padding: 48px 0px 0px 20px;
@@ -456,15 +438,13 @@ footer p {
     margin: 0;
 }
 
-.number,
-.website {
+.number, .website{
     display: flex;
     align-items: center;
     gap: 16px;
 }
 
-.number img,
-.website img {
+.number img,.website img {
     width: 24px;
     height: 24px;
 }
